@@ -44,7 +44,7 @@ export const ProjectsCard3 = () => {
             isOpen ? "opacity-0 pointer-events-none" : "opacity-100"
           }`}
         >
-          <h1 className='text-4xl font-black mb-2'>SALAMADOC</h1>
+          <h1 className='md:text-4xl text-3xl font-black mb-2'>SALAMADOC</h1>
           <p className='font-thin text-sm tracking-wide'>FULL STACK PROJECT</p>
         </div>
 
@@ -55,19 +55,19 @@ export const ProjectsCard3 = () => {
           }`}
         >
           <div className='card-informaton-title'>
-            <h1 className='text-4xl font-black mb-1'>SALAMADOC</h1>
+            <h1 className='md:text-4xl text-3xl font-black mb-1'>SALAMADOC</h1>
             <p className='font-normal italic text-xs tracking-widest mb-5'>FULL STACK PROJECT</p>
           </div>
           <div className='card-description text-justify'>
-            <p>
+            <p className='md:text-base text-xs'>
             SALAMADOC is an innovative medical management system designed to streamline the administrative and organizational tasks in healthcare settings. The web application provides features and functionalities tailored for doctors, secretaries, administrators, and patients.
             </p>
           </div>
           
           <div className='card-technology-link-section flex justify-between md:items-start start-end mt-5 flex-col md:flex-row'>
-            <div className='card-technology text-sm'>
+            <div className='card-technology md:text-sm text-xs'>
               <p className='font-black uppercase text-start'>Technologies stack</p>
-              <div className='grid grid-cols-2 gap-[5px] mt-3'>
+              <div className='md:grid grid-cols-2 gap-[5px] mt-3 flex flex-col'>
                 <div className='information-title-example flex gap-3'>
                   <p className='font-semibold uppercase'>FrontEnd:</p>
                   <p className='font-light uppercase'>React</p>

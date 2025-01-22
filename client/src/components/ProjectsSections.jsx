@@ -14,8 +14,8 @@ const ProjectsSections = () => {
         <div className='card flex flex-col justify-center items-center'>
 
             <div className='card-titles text-center my-[10px] mb-[60px]'>
-                <h1 className='font-bold tracking-tighter md:text-9xl text-8xl'>PROJECTS</h1>
-                <p className='font-thin'>From Concept to Completion: A Glimpse into My Work</p>
+                <h1 className='font-bold tracking-tighter md:text-9xl text-5xl'>PROJECTS</h1>
+                <p className='font-thin md:text-base text-sm px-20'>From Concept to Completion: A Glimpse into My Work</p>
             </div>
 
             <div className='flex flex-col justify-center w-3/4'>
@@ -33,9 +33,9 @@ const ProjectsSections = () => {
                         <div className='card-image flex flex-col justify-center items-center'>
                             <img src={VideoLogo} alt="Icon" className="object-contain w-[100px] h-[100px] mb-5" />
                         </div>
-                        <div className='text-center md:text-start'>
-                            <h1 className='text-lg font-bold uppercase'>VIDEO & MOTION PROJECTS</h1>
-                            <p className='uppercase tracking-widest text-sm'>view more</p>
+                        <div className='text-center md:text-start flex flex-col gap-2'>
+                            <h1 className='md:text-lg text-sm font-bold uppercase'>VIDEO & MOTION PROJECTS</h1>
+                            <p className='uppercase tracking-widest md:text-sm text-xs'>view more</p>
                         </div>
                     </div>
                 </a>
@@ -44,9 +44,9 @@ const ProjectsSections = () => {
                             <div className='card-image flex flex-col justify-center items-center'>
                                 <img src={MotionGraphics} alt="Icon" className="object-contain w-[100px] h-[100px] mb-5" />
                             </div>
-                            <div className='text-center md:text-start'>
-                                <h1 className='text-lg font-bold uppercase'>Front end Progress</h1>
-                            <   p className='uppercase tracking-widest text-sm'>view more</p>
+                            <div className='text-center md:text-start flex flex-col gap-2'>
+                                <h1 className='md:text-lg text-sm font-bold uppercase'>Front end Progress</h1>
+                            <   p className='uppercase tracking-widest md:text-sm text-xs'>view more</p>
                             </div>
                         </div>
                     </a>

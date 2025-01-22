@@ -44,7 +44,7 @@ export const ProjectsCard1 = () => {
             isOpen ? "opacity-0 pointer-events-none" : "opacity-100"
           }`}
         >
-          <h1 className='text-4xl font-black mb-2'>MOODMIRROR</h1>
+          <h1 className='md:text-4xl text-3xl font-black mb-2'>MOODMIRROR</h1>
           <p className='font-thin text-sm tracking-wide'>FULL STACK WEBSITE</p>
         </div>
 
@@ -55,19 +55,19 @@ export const ProjectsCard1 = () => {
           }`}
         >
           <div className='card-informaton-title'>
-            <h1 className='text-4xl font-black mb-1'>MOODMIRROR</h1>
+            <h1 className='md:text-4xl text-3xl font-black mb-1'>MOODMIRROR</h1>
             <p className='font-normal italic text-xs tracking-widest mb-5'>FULL STACK WEBSITE</p>
           </div>
-          <div className='card-description text-justify'>
+          <div className='card-description text-justify md:text-base text-xs'>
             <p>
               MoodMirror is an innovative web application designed to help users explore their emotions through facial recognition. By simply uploading an image of their face, users can receive an analysis of their emotional state. This application is built with Flask for the backend and React for the frontend, ensuring a smooth and efficient user experience.
             </p>
           </div>
           
           <div className='card-technology-link-section md:grid grid-cols-2 mt-5'>
-            <div className='card-technology text-sm'>
+            <div className='card-technology md:text-sm text-xs'>
               <p className='font-black uppercase text-start'>Technologies stack</p>
-              <div className='grid grid-cols-2 gap-[5px] mt-5'>
+              <div className='md:grid grid-cols-2 gap-[5px] mt-5 flex flex-col'>
                 <div className='information-title-example flex gap-3'>
                   <p className='font-semibold uppercase'>FrontEnd:</p>
                   <p className='font-light uppercase'>React Vite</p>

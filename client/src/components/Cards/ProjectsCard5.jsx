@@ -65,7 +65,7 @@ export const ProjectsCard5 = () => {
 
         {/* Show on Click */}
         <div
-          className={`card-information flex flex-col justify-center absolute bottom-0 w-full h-full bg-gradient-to-t from-black/90 to-black/30 p-10 transition-all duration-500 ${
+          className={`card-information flex flex-col md:text-base text-xs justify-center absolute bottom-0 w-full h-full bg-gradient-to-t from-black/90 to-black/30 p-10 transition-all duration-500 ${
             isOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4 pointer-events-none"
           }`}
         >

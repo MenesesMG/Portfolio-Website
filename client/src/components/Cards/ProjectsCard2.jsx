@@ -66,7 +66,7 @@ export const ProjectsCard2 = () => {
           
           <div className='card-technology-link-section flex flex-col'>
             <div className='card-technology'>
-              <div className='mt-5 mb-5'>
+              <div className='mt-5 mb-5 md:text-base text-xs'>
                 <div className='information-title-example flex gap-3'>
                   <p className='font-semibold uppercase'>FrontEnd:</p>
                   <p className='font-light uppercase'>Bootstrap React</p>

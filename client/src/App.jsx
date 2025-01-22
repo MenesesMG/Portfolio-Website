@@ -8,6 +8,7 @@ import ProjectsSections from "./components/ProjectsSections";
 import { FooterSection } from "./components/FooterSection";
 import Gradient from "./assets/Gradient-Large.png";
 import videoBG from './assets/PortfolioBackgroudnSmall.mp4';
+import AboutMe from "./components/AboutMe";
 
 export default function App() {
   const aboutRef = useRef(null);
@@ -48,7 +49,7 @@ export default function App() {
 
   return (
     <div ref={containerRef} className="relative w-full h-full overflow-hidden">
-      <video src={videoBG} autoPlay loop muted playsInline className="fixed w-full h-full min-w-full min-h-full object-cover -z-10 brightness-50" />
+      <video src={videoBG} autoPlay loop muted playsInline className="fixed w-full h-[100vh] min-w-full min-h-full object-cover -z-10 brightness-50" />
       <div className="flex flex-col justify-between items-center relative z-10">
         <Header scrollToSection={scrollToSection} />
 
@@ -62,7 +63,7 @@ export default function App() {
 
         <img src={Gradient} alt="Icon" className="md:block hidden z-0 absolute top-[500px]" />
         
-        <motion.div ref={skillsRef} className="z-20 md:mt-10 -mt-[100px] mb-[150px]" initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true, amount: 0.2 }}>
+        <motion.div ref={skillsRef} className="z-20 md:mt-10 mb-[150px]" initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true, amount: 0.2 }}>
           <Skills />
         </motion.div>
 
