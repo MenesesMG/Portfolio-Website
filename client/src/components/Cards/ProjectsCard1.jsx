@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import CardBackground from "../../assets/Websites/MoodMirror-Background.png";
 import CardWebsite from "../../assets/Websites/MoodMirror-Website.png";
 import GithubLogo from "../../assets/25231.png";
+import FigmaLogo from "../../assets/figma-icon-1366x2048-tdlpz5c4.png";
 import MoodMirrorLogo from "../../assets/moodmirror-alt.svg";
 
 export const ProjectsCard1 = () => {
@@ -102,6 +103,19 @@ export const ProjectsCard1 = () => {
                         className="w-[50px] h-[50px] invert"
                     />
                     </a>
+                                        {/* Github Logo with Link */}
+                                        <a 
+                    href="https://www.figma.com/design/JnRYSQ0gcfCjcGZ52uoXJX/MoodMirror---Prototype?node-id=0-1&t=rTY2iI2oiKYJUqur-1" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex justify-center items-center"
+                    >
+                    <img
+                        src={FigmaLogo}
+                        alt="Figma Logo"
+                        className="w-[38px] h-[50px] invert"
+                    />
+                    </a>
 
                     {/* Mood Mirror Logo with Link */}
                     <a 
@@ -116,6 +130,7 @@ export const ProjectsCard1 = () => {
                         className="w-[60px] h-[60px]"
                     />
                     </a>
+                    
                 </div>
                 </div>
           </div>

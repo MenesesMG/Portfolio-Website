@@ -78,7 +78,7 @@ export const ProjectsCard2 = () => {
               </div>
             </div>
                 <div className='link flex flex-col items-end'>
-                <p className='font-bold uppercase md:mt-0 mt-5 text-sm'>Visit Github repo & site:</p>
+                <p className='font-bold uppercase md:mt-0 mt-5 text-sm'>Visit Github repo:</p>
                 <div className='logo-content pt-4 flex gap-5 justify-center items-center'>
                     {/* Github Logo with Link */}
                     <a 

@@ -7,6 +7,9 @@ import { ProjectsCard5 } from './Cards/ProjectsCard5'
 import VideoLogo from "../assets/icons/VideoIcon.png"
 import MotionGraphics from "../assets/icons/MotionGraphicsIcon.png"
 import FrontEndIcon from "../assets/icons/FrontEndIcon.png"
+import { ProjectsCard101 } from './Cards/ProjectsCard101'
+import { ProjectsCard102 } from './Cards/ProjectsCard102'
+
 
 const ProjectsSections = () => {
   return (
@@ -19,12 +22,14 @@ const ProjectsSections = () => {
             </div>
 
             <div className='flex flex-col justify-center w-3/4'>
-                <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-4 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-5 gap-4">
                     <div className="col-span-1 md:col-span-3"><ProjectsCard1 /></div>
-                    <div className="col-span-1 md:row-span-2 md:row-start-2"><ProjectsCard2 /></div>
-                    <div className="col-span-1 md:col-span-2 md:row-start-2"><ProjectsCard3 /></div>
-                    <div className="col-span-1 md:col-span-2 md:col-start-2 md:row-start-3"><ProjectsCard4 /></div>
-                    <div className="col-span-1 md:col-span-5 md:row-start-4"><ProjectsCard5 /></div>
+                    <div className="col-span-1 md:col-span-2 md:row-start-2"><ProjectsCard101 /></div>
+                    <div className="col-span-1 md:col-span-2 md:row-start-2"><ProjectsCard102 /></div>
+                    <div className="col-span-1 md:row-span-2 md:row-start-3"><ProjectsCard2 /></div>
+                    <div className="col-span-1 md:col-span-2 md:row-start-3"><ProjectsCard3 /></div>
+                    <div className="col-span-1 md:col-span-2 md:col-start-2 md:row-start-4"><ProjectsCard4 /></div>
+                    <div className="col-span-1 md:col-span-5 md:row-start-5"><ProjectsCard5 /></div>
                 </div>
 
                 <div className='options grid grid-cols-2 gap-6 place-content-center mt-5'>
